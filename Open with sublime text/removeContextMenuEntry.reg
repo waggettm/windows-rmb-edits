@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell]
+[-HKEY_CLASSES_ROOT\*\shell\openwsublimetext]
+@="&Edit with SublimeText"
+"Icon"="C:\\Program Files\\Sublime Text 2\\sublime_text_103.ico"
+[-HKEY_CLASSES_ROOT\*\shell\openwsublimetext\command]
+@="C:\\Program Files\\Sublime Text 2\\sublime_text.exe \"%L\""
+[-HKEY_CLASSES_ROOT\Directory\shell\openwsublimetext]
+@="Edit &with SublimeText"
+"Icon"="C:\\Program Files\\Sublime Text 2\\sublime_text_103.ico"
+[-HKEY_CLASSES_ROOT\Directory\shell\openwsublimetext\command]
+@="C:\\Program Files\\Sublime Text 2\\sublime_text.exe \"%L\""
